@@ -3,25 +3,25 @@
     {
       "title": "Греція",
       "description": "Відчуйте давню історію та пляжі",
-      "image": "https://raw.githubusercontent.com/Akemi2005/kyrsova/main/img/card-json.png",
+      "image": "https://raw.githubusercontent.com/cccIxv/kyrsova/main/img/card-json.png",
       "label": "Усі пакети"
     },
     {
       "title": "Єгипет",
       "description": "Відкрийте для себе країну фараонів і пірамід",
-      "image": "https://raw.githubusercontent.com/Akemi2005/kyrsova/main/img/card-json1.png",
+      "image": "https://raw.githubusercontent.com/cccIxv/kyrsova/main/img/card-json1.png",
       "label": "Усі пакети"
     },
     {
       "title": "Африка",
       "description": "Вирушайте в подорож на все життя",
-      "image": "https://raw.githubusercontent.com/Akemi2005/kyrsova/main/img/card-json2.png",
+      "image": "https://raw.githubusercontent.com/cccIxv/kyrsova/main/img/card-json2.png",
       "label": "Усі пакети"
     },
     {
       "title": "Франція",
       "description": "Пориньте в мистецтво, культуру та кухню",
-      "image": "https://raw.githubusercontent.com/Akemi2005/kyrsova/main/img/card-json3.png",
+      "image": "https://raw.githubusercontent.com/cccIxv/kyrsova/main/img/card-json3.png",
       "label": "Усі пакети"
     }
   ]
