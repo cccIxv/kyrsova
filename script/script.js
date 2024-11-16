@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //Генерацыя через json на сторінці напрямки
 
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('https://raw.githubusercontent.com/Akemi2005/kyrsova/main/data.json')
+    fetch('https://raw.githubusercontent.com/cccIxv/kyrsova/main/data.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Помилка завантаження даних: ' + response.status);
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return card;
     }
 
-    fetch('https://raw.githubusercontent.com/Akemi2005/kyrsova/main/data2.json')
+    fetch('https://raw.githubusercontent.com/cccIxv/kyrsova/main/data2.json')
         .then(response => response.json())
         .then(data => {
             const priceCardsBlock = document.querySelector('.price-cards-block');
