@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return card;
     }
 
-    fetch('https://raw.githubusercontent.com/cccIxv/kyrsova/main/data2.json')
+    fetch('https://raw.githubusercontent.com/cccIxv/kyrsova/main/main/data2.json')
         .then(response => response.json())
         .then(data => {
             const priceCardsBlock = document.querySelector('.price-cards-block');
