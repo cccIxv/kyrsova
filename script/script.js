@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-//Модальне вікнo
+//Модальне вікно
 document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('modal');
     const contactLink = document.getElementById('contact-link');
