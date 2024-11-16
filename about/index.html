@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Love Travel</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Сайт організації зимового відпочинку">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn"><i class="fa-solid fa-xmark"></i></span>
+        <h2>Контакти</h2>
+        <p>Зв'яжіться з намиза телефоном <br><strong>+01 483 593 284</strong><br> або напишіть на</p>
+        <a href="mailto:info@travel.com" class="contact-link">info@travel.com</a>
+    </div>
+</div>
+<header>
+    <div class="logo-phone"><img src="../img/logo-white.png" alt="img"></div>
+    <div class="menu-icon" id="menuIcon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="menu">
+        <a href="#" class="logo-pc"><img src="../img/logo-white.png" alt="img"></a>
+        <ul>
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="#" class="orange">Про нас</a></li>
+            <li><a href="../price/index.html">Ціни</a></li>
+            <li><a href="../destinations/index.html">Напрямки</a></li>
+            <li><a href="#" id="contact-link">Контакти</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+        </div>
+    </nav>
+</header>
+<section class="main-section-page" style="background: url('../img/background-main3.png') no-repeat center center/cover;">
+    <h1>Про нас</h1>
+</section>
+<section class="section-plan-trip">
+    <div class="plan-trip-block">
+        <div class="plan-trip-text">
+            <h2 class="section-title">Досліджуйте світ разом з нами</h2>
+            <h3 class="section-subtitle">Ідеальний відпочинок<br>з туристичною<br> агенцією</h3>
+            <p class="section-text">Ми команда досвідчених експертів з подорожей,
+                які спеціалізуються на плануванні та організації незабутніх подорожей
+                для наших клієнтів із широким спектром туристичних послуг.</p>
+            <p class="section-text">Місцеві путівники</p>
+            <div class="loader-text"></div>
+            <a href="#" class="button-more">Докладніше</a>
+        </div>
+        <img src="../img/snow-men4.png" alt="img" class="back-img">
+    </div>
+    <div class="image-block">
+        <img src="../img/section-img.png" alt="img">
+    </div>
+</section>
+<section class="section-trip-plan">
+    <div class="trip-plan-top">
+        <div>
+            <h2 class="section-title">Сплануємо наступну пригоду</h2>
+            <h3 class="section-subtitle">Ідеальна відпустка<br>реальність</h3>
+        </div>
+        <p class="section-text">Різні напрямки по всьому світу.
+            Завдяки нашим знанням у туристичній індустрії ми гарантуємо,
+            що всі аспекти вашої подорожі будуть адаптовані до ваших уподобань
+            і бюджету та зроблять її незабутньою подією.</p>
+    </div>
+    <div class="trip-plan-cards">
+        <div class="trip-plan-card">
+            <img src="../img/icon-01.png" alt="img">
+            <h4>Авіаквитки</h4>
+            <p>Наша туристична агенція спеціалізується на
+                наданні найкращих пропозицій на авіаквитки.</p>
+        </div>
+        <div class="trip-plan-card">
+            <img src="../img/icon-02.png" alt="img">
+            <h4>Океанські круїзи</h4>
+            <p>Розкішний спосіб подорожі, а пасажири
+                можуть насолоджуватися видами на море.</p>
+        </div>
+        <div class="trip-plan-card">
+            <img src="../img/icon-03.png" alt="img">
+            <h4>Транспортні засоби</h4>
+            <p>Ми пропонуємо різні види транспорту,
+                щоб безпечно дістатися до місця призначення.</p>
+        </div>
+        <div class="trip-plan-card">
+            <img src="../img/icon-04.png" alt="img">
+            <h4>Маршрути подорожей</h4>
+            <p>Наша команда експертів подбає про все планування
+                та логістику, надавши вам детальний маршрут.</p>
+        </div>
+        <div class="trip-plan-card">
+            <img src="../img/icon-05.png" alt="img">
+            <h4>Страхування </h4>
+            <p>Туристична страховка є невід’ємною
+                частиною будь-якої подорожі.</p>
+        </div>
+        <div class="trip-plan-card">
+            <img src="../img/icon-06.png" alt="img">
+            <h4>Місцевий гід</h4>
+            <p>Ми можемо підключити вас до гідів, які зведуть
+                вас з найкращого шляху та покажуть своє місто.</p>
+        </div>
+    </div>
+    <div class="trip-plan-bottom">
+        <img src="../img/snow-men-block.png" alt="img">
+        <div class="trip-plan-block">
+            <div>
+                <h4>Ексклюзивні пропозиції</h4>
+                <p>Забронюйте відпустку<br>своєї мрії вже сьогодні!</p>
+            </div>
+            <a href="#" class="button-more">Докладніше</a>
+        </div>
+    </div>
+</section>
+<section class="section-history">
+    <div class="search-block">
+        <h2 class="section-title">Діліться своїми враженнями</h2>
+        <h3 class="section-subtitle">Історії задоволених клієнтів</h3>
+    </div>
+    <div class="history-block">
+        <img src="../img/history-img.png" alt="img">
+        <div>
+            <p class="h-block-text">У мене була неймовірна подорож завдяки цій туристичній агенції.
+                Вони подбали про все, від перельотів до розміщення, і навіть
+                допомогли мені спланувати мій маршрут. Я дуже рекомендую їх.</p>
+            <div class="h-block-client">
+                <img src="../img/avatar-01.png" alt="img">
+                <div>
+                    <h4>Хайді</h4>
+                    <p>Нью-Йорк</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="history-block-bottom">
+        <img src="../img/history-img2.png" alt="img">
+        <div class="history-blocks">
+            <img src="../img/history-img3.png" alt="img">
+            <img src="../img/history-img4.png" alt="img">
+            <img src="../img/history-img5.png" alt="img">
+            <img src="../img/history-img6.png" alt="img">
+        </div>
+    </div>
+</section>
+<section class="adventure-section" style="background-image: url('../img/background-section3.png');">
+    <div class="trip-cards-container">
+        <div class="trip-card">
+            <img src="../img/card-trip1.png" alt="Чіангмай">
+            <div class="trip-info">
+                <div class="stick-block">
+                    <p><i class="fa-solid fa-clock" style="color: #FD661E;"></i> 1 Тиждень</p>
+                    <div>
+                        <i class="fa-solid fa-envelope" style="color: #FD661E;"></i>
+                        <i class="fa-solid fa-route" style="color: #FD661E;"></i>
+                    </div>
+                </div>
+                <div class="trip-header">
+                    <h3>Чіангмай</h3>
+                    <p><i class="fa-solid fa-location-dot" style="color: #FD661E;"></i> Таїланд</p>
+                </div>
+                <hr>
+                <p>Відвідайте храми та нічний базар Чіангмай, величезний ринок, розташований на Чіанг-Клан-роуд.</p>
+                <hr>
+                <div class="trip-footer">
+                    <a href="#" class="details-button">Деталі</a>
+                    <div class="price">
+                        <p>Від</p>
+                        $450
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="adventure-content">
+        <h2>Завжди поруч</h2>
+        <h3>Почніть свою відпустку</h3>
+        <ul class="adventure-list price-list">
+            <li>Трансфер аеропорт <span>37 $</span></li>
+            <li>Відчуйте інші культури <span>54 $</span></li>
+            <li>Створіть незабутні спогади <span>67 $</span></li>
+            <li>Тур на байдарках <span>82 $</span></li>
+        </ul>
+        <div class="adventure-block-bottom">
+            <p>Напишіть нам,<br>щоб почати свято</p>
+            <a href="#" class="button-more">Написати</a>
+        </div>
+    </div>
+</section>
+<section class="section-news">
+    <div class="search-block">
+        <h2 class="section-title">Справжні мандрівні історії</h2>
+        <h3 class="section-subtitle">Останні Корисні Новини</h3>
+    </div>
+    <div class="destination-section">
+        <div class="blog-card-about" style="background-image: url(../img/card-json4.png);">
+            <div class="blog-content">
+                <p class="date-block">7 квітня 2023</p>
+                <h2>Відкрийте Нові місця </h2>
+                <p>Переваги подорожей наодинці від свободи
+                    відкривати нові місця з новими друзями.</p>
+            </div>
+        </div>
+        <div class="blog-card-about" style="background-image: url(../img/card-json5.png);">
+            <div class="blog-content">
+                <p class="date-block">7 квітня 2023</p>
+                <h2>Пам'ятки для відвідування</h2>
+                <p>Знакові пам’ятки, які роблять Європу однією з
+                    найпопулярніші туристичні напрямки світу.</p>
+            </div>
+        </div>
+        <div class="blog-card-about" style="background-image: url(../img/card-json6.png);">
+            <div class="blog-content">
+                <p class="date-block">7 квітня 2023</p>
+                <h2>Бюджетна подорож</h2>
+                <p>Практичні поради для мандрівників,
+                    які хочуть побачити світ, не порушивши грошей.</p>
+            </div>
+        </div>
+        <div class="blog-card-about" style="background-image: url(../img/card-json7.png);">
+            <div class="blog-content">
+                <p class="date-block">7 квітня 2023</p>
+                <h2>Досліджуйте чудеса</h2>
+                <p>Обов’язкові місця для відвідування та враження,
+                    зокрема дика природа та культурні враження.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-top">
+        <p>Подорожуйте за <br>межами вашої уяви<br> з нами!</p>
+        <div class="footer-section">
+            <h3>Адреса</h3>
+            <address>
+                1080 Brickell Ave<br>
+                Маямі - Флорида<br>
+                США Америка
+            </address>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Контакти</h3>
+            <a href="mailto:info@travel.com" class="contact-link">info@travel.com</a>
+            <p>+ 01 483 593 284</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-links">
+            <p>Travel WordPress Theme <i class="fa-solid fa-square-full fa-2xs" style="color: #FD661E;"></i></p>
+            <p>Rental <i class="fa-solid fa-square-full fa-2xs" style="color: #FD661E;"></i></p>
+            <p>Insurance</p>
+        </div>
+        <div class="payment-icons">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-amex"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+        </div>
+    </div>
+</footer>
+
+<script src="../script/script.js"></script>
+</body>
+</html>
